@@ -33,6 +33,7 @@ Build virtual operator node service:
 ~~~bash
 cd virtual_node_service
 make
+chmod +x vns
 ~~~
 
 Build PyTorch custom kernel
