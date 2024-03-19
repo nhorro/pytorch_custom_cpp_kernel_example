@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message TensorMessage {
+    repeated float data = 1;
+    repeated int32 size = 2;
+    string dtype = 3;
+}
